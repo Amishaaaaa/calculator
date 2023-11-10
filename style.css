@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+h1.text-center {
+    color: #ff6347; /* Tomato color for the title text */
+}
+.container {
+    background-color: #add8e6; /* Light blue background color for the calculator */
+    padding: 20px; /* Add some padding for better appearance */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+.button {
+    padding: 15px;
+    margin: 0 3px;
+    width: 66px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold; 
+    background-color: #e0e0e0; /* Light gray background color */
+    transition: background-color 0.3s ease; /* Add smooth transition effect for background color */
+}
+
+.button:active {
+    background-color: #c0c0c0; /* Darker gray background color when button is active (clicked) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle box-shadow for shining effect */
+}
+
+.row{
+    margin: 8px 0;
+}
+.row input {
+    font-size: 18px; /* Adjust font size */
+    width: 250px; /* Adjust width */
+    margin: 0;
+    padding: 10px 8px; /* Adjust padding */
+    border: 2px solid black;
+    border-radius: 5px;
+}
